@@ -1,0 +1,20 @@
+.best {
+    background: url(../../../public/img/paper.jpg) center center/cover no-repeat;
+    height: 495px;
+
+    &_caption {
+        padding-top: 80px;
+        font-size: 24px;
+        color: #000;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    &_cards {
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px auto;
+    }
+}
