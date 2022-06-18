@@ -1,5 +1,5 @@
 .explore {
-    height: 959px;
+    height: 759px;
     background: url(../../../public/img/desk.jpg) center center/cover no-repeat;
 
     &_nav {
@@ -27,14 +27,6 @@
         margin-top: 150px;
         margin-bottom: 0;
         cursor: default;
-    }
-
-    &_pro {
-        width: 200px;
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-        margin-top: 20px;
     }
 
     &_descs {

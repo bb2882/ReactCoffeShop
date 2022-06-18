@@ -1,9 +1,8 @@
-
 import './explore.scss'
 
 const Explore = () => {
     return (
-        <div className="explore">
+        <section className="explore">
 
             <div className="explore_nav">
                 <div className="explore_text-image explore_nav-block">
@@ -20,7 +19,7 @@ const Explore = () => {
 
             <h1 className="explore_caption">Everything You Love About Coffee</h1>
 
-            <div className="explore_pro">
+            <div className="pro">
                 <div className="line"></div>
                 <img src={process.env.PUBLIC_URL + '/img/secondvector.svg'} alt="" />
                 <div className="line"></div>
@@ -31,7 +30,7 @@ const Explore = () => {
                 <h2 className="explore_desc">Want to try our beans?</h2>
                 <div className="explore_more">More</div>
             </div>
-        </div>
+        </section>
     )
 }
 

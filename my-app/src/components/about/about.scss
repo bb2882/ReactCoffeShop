@@ -1,0 +1,26 @@
+.about {
+    height: 450px;
+
+    .line {
+        border: 1px solid #000;
+    }
+
+    &_caption {
+        margin-top: 100px;
+        font-size: 24px;
+        color: #000;
+        text-align: center;
+    }
+
+    &_descs {
+        margin: 0 auto;
+        width: 589px;
+        margin-top: 40px;
+    }
+
+    &_desc {
+        font-size: 14px;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
