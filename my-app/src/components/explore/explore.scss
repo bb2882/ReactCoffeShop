@@ -1,0 +1,67 @@
+.explore {
+    height: 959px;
+    background: url(../../../public/img/desk.jpg) center center/cover no-repeat;
+
+    &_nav {
+        display: flex;
+        width: 360px;
+        justify-content: space-between;
+        padding-top: 35px;
+        margin-left: 150px;
+        &-block {
+            margin-top: auto;
+        }
+        &-text {
+            font-size: 12px;
+            line-height: 17px;
+            color: #FFF;
+            cursor: pointer;
+        }
+    }
+
+    &_caption {
+        font-weight: 700;
+        font-size: 40px;
+        color: #FFF;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 0;
+        cursor: default;
+    }
+
+    &_pro {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    &_descs {
+        margin-top: 60px;
+    }
+
+    &_desc {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        color: #FFFFFF;
+        text-align: center;
+        cursor: default;
+    }
+
+    &_more {
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 35px auto;
+        width: 120px;
+        height: 30px;
+        border: 1px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 3px;
+        cursor: pointer;
+
+    }
+}
