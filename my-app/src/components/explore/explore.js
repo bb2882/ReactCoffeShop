@@ -1,29 +1,21 @@
+import Pro from '../pro/pro'
+import Navbar from '../navbar/navbar'
 import './explore.scss'
 
 const Explore = () => {
     return (
         <section className="explore">
 
-            <div className="explore_nav">
-                <div className="explore_text-image explore_nav-block">
-                    <img src={process.env.PUBLIC_URL + '/img/vector.svg'} alt="" />
-                    <span className='explore_nav-text'>Coffee house</span>
-                </div>
-                <div className='explore_nav-block'>
-                    <span className='explore_nav-text'>Our coffee</span>
-                </div>
-                <div className='explore_nav-block'>
-                    <span className='explore_nav-text'>For your pleasure</span>
-                </div>
-            </div>
+            <Navbar 
+            src={process.env.PUBLIC_URL + '/img/vector.svg'} 
+            add="explore"
+            text1="Coffee house"
+            text2="Our coffee"
+            text3 ="For your pleasure"/>
 
             <h1 className="explore_caption">Everything You Love About Coffee</h1>
 
-            <div className="pro">
-                <div className="line"></div>
-                <img src={process.env.PUBLIC_URL + '/img/secondvector.svg'} alt="" />
-                <div className="line"></div>
-            </div>
+            <Pro src={process.env.PUBLIC_URL + "/img/secondvector.svg"} add=''/>
 
             <div className="explore_descs">
                 <h2 className="explore_desc">We make every day full of energy and taste</h2>

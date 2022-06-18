@@ -1,3 +1,4 @@
+import Pro from '../pro/pro'
 import './about.scss'
 
 const About = () => {
@@ -6,11 +7,7 @@ const About = () => {
 
             <h2 className="about_caption ">About Us</h2>
 
-            <div className="pro">
-                <div className="line"></div>
-                <img src={process.env.PUBLIC_URL + '/img/thirdvector.svg'} alt="" />
-                <div className="line"></div>
-            </div>
+            <Pro src={process.env.PUBLIC_URL + '/img/thirdvector.svg'} add=" black-line"/>
 
             <div className="about_descs">
                 <p className="about_desc">
